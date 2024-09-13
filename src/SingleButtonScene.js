@@ -6,8 +6,8 @@ class SingleButtonScene extends Phaser.Scene {
     }
 
     preload() {
-        this.load.image('Background', 'assets/BG_end_screen.png'); // Загрузка фона
-        this.load.image('startButton', 'assets/wantplay.png'); // Загрузка изображения кнопки
+        this.load.image('Background', 'dist/assets/BG_end_screen.png'); // Загрузка фона
+        this.load.image('startButton', 'dist/assets/wantplay.png'); // Загрузка изображения кнопки
     }
 
     create() {
